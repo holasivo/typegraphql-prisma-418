@@ -1,0 +1,27 @@
+{
+  "name": "typegraphql-prisma-418",
+  "version": "1.0.0",
+  "description": "reproduces https://github.com/MichalLytek/typegraphql-prisma/issues/418",
+  "main": "index.js",
+  "scripts": {
+    "start": "prisma generate && ts-node ./src/index.ts"
+  },
+  "author": "Mario DeSousa",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "@prisma/client": "^5.5.2",
+    "graphql": "^16.6.0",
+    "graphql-scalars": "^1.22.4",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^2.0.0-beta.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "prisma": "^5.5.2",
+    "ts-node": "^10.9.1",
+    "typegraphql-prisma": "^0.27.1",
+    "typescript": "^5.2.2"
+  }
+}
